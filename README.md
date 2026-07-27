@@ -20,7 +20,7 @@ Update GETDATE() to either
 SYSDATETIME(): Returns the current system timestamp as a high-precision DATETIME2(7) value.
 SYSUTCDATETIME(): Returns the current system timestamp in Coordinated Universal Time (UTC) as a DATETIME2(7).
 
-Do not use the default  unless necessary, for instance there is no need to have millisecond’s when not required. Set datetime2(0) when appropriate, this also resolves Excel to read the field as a date. 
+Do not use the default  unless necessary, for instance there is no need to have millisecond’s when not required. Set datetime2(0) when appropriate, this also resolves Excel to read the field as a date.  
 
 Size difference  for datetime2(0)
 Datetime to Datetime2 Conversion update
